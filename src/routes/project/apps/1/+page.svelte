@@ -45,7 +45,7 @@ function remove(index) {
 function complete(index) {
   todoList[index].completed = !todoList[index].completed;
 }
-import Icon from '../../../../components/Icon.svelte';
+import Icon from '../../../../component/Icon.svelte';
 </script>
 <style>
     main {
